@@ -1,0 +1,16 @@
+[Sat Apr  8 02:24:20 2023]: Log file created.
+
+[Sat Apr  8 02:24:20 2023]: 152120191043 @ozlem wrote this.
+
+[Sat Apr  8 02:24:20 2023]: Child2 process created with PID: 11775 from parent process with PID: 11773
+
+[Sat Apr  8 02:24:20 2023]: Child process created with PID: 11774 from parent process with PID: 11773
+
+[Sat Apr  8 02:24:20 2023]: Child process created with PID: 11776 from parent process with PID: 11774
+
+[Sat Apr  8 02:24:20 2023]: Child process created with PID: 11777 from parent process with PID: 11776
+
+[Sat Apr  8 02:24:20 2023]: Child process created with PID: 11778 from parent process with PID: 11777
+
+[Sat Apr  8 02:24:20 2023]: Child process created with PID: 11779 from parent process with PID: 11778
+

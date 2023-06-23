@@ -1,0 +1,13 @@
+a. Fakülte ve bölümü Müh.-Mim. Fak. ve Bilg. Müh. ise 
+ebeveyn proses işlemine devam edebilmek için çocuk 
+prosesin sürecini tamamlamasını beklemektedir.
+b. Giriş yılı 2017 veya daha sonrası ise 4 saniyelik alarm
+süresince bekler ve sonrasında çocuk proses süreci 
+sonlandırılır.
+c. eğer belirtildiği gibi Fakülte Müh.-Mim. Fak. değil ise ebeveyn proses 6 
+saniyelik alarm mekanizması ile bekledikten sonra 
+işlemini SignalHandler fonksiyonuna bir sinyal
+gönderilerek CTRL-C ve CTRL-Z interrupt'larını ignore ederek yorum kısmına alınmış kod ile default hale dönüştürülebilir
+,alarmHandler alarm sinyali göndererek bekleme ayarlandı ardından alarmFlag true olmasıyla sonlanma gerçekleşmiştir.
+d. diğer belirtilmemiş durumlar içinse işlem yapılmadan program sonlanır yada else bloğuna alınarak mesaj
+gönderilir.

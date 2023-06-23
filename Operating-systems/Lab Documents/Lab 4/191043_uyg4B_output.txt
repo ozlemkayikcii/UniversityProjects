@@ -1,0 +1,61 @@
+ozlem@Ozlem:~$ gcc 191043_uyg4B.c -o chat4 -lpthread
+ozlem@Ozlem:~$ ./chat4 numberfile.txt
+Parent process: PID=335
+Child process: PID=336, PPID=335
+ __________Last modified time: Sat May 13 13:19:23 2023
+________________ __________Last  updated time: Sat May 13 22:12:23 2023
+Received message from child process: 152120151043
+Parsing and printing Student ID:
+Faculty: Engineering Faculty
+Department: Computer Engineering
+Entrance Year: 2015
+Parent process exiting.
+ozlem@Ozlem:~$ ./chat4 numberfile.txt
+Parent process: PID=392
+Child process: PID=393, PPID=392
+ __________Last modified time: Sat May 13 22:12:23 2023
+ ________________ __________Last  updated time: Sat May 13 22:12:54 2023
+Received message from child process: 152120191043
+Parsing and printing Student ID:
+Faculty: Engineering Faculty
+Department: Computer Engineering
+Entrance Year: 2019
+Parent process waiting for 4 seconds...
+Parent process waited for 4 seconds.
+Terminating the child process...
+Child process terminated.
+Parent process exiting.
+ozlem@Ozlem:~$ ./chat4 numberfile.txt
+Parent process: PID=443
+Child process: PID=444, PPID=443
+ __________Last modified time: Sat May 13 22:12:54 2023
+ ________________ __________Last  updated time: Sat May 13 22:13:10 2023
+Received message from child process: 302220191043
+Parsing and printing Student ID:
+Faculty: Other University
+Department: Other
+Entrance Year: 2019
+Parent process waiting for 4 seconds...
+Parent process waited for 4 seconds.
+Terminating the child process...
+Child process terminated.
+Parent process waiting for 6 seconds...
+Parent process will ignore Ctrl+C and Ctrl+Z signals during the wait.
+Alarm Handler -> Alarm clock signal received.
+Parent process waited for 6 seconds.
+Parent process exiting.
+ozlem@Ozlem:~$ ./chat4 numberfile.txt
+Parent process: PID=511
+Child process: PID=512, PPID=511
+ __________Last modified time: Sat May 13 22:13:10 2023
+________________ __________Last  updated time: Sat May 13 22:21:57 2023
+Received message from child process: 302220151043
+Parsing and printing Student ID:
+Faculty: Other University
+Department: Other
+Entrance Year: 2015
+Parent process waiting for 6 seconds...
+Parent process will ignore Ctrl+C and Ctrl+Z signals during the wait.
+Alarm Handler -> Alarm clock signal received.
+Parent process waited for 6 seconds.
+Parent process exiting.

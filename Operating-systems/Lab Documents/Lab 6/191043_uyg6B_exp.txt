@@ -1,0 +1,40 @@
+
+-----------------------------------ÖRNEK BİRİNCİ ÇIKTI SONUCU---------------------------------------------
+
+ozlem@Ozlem:~$ gcc 191043_uyg6B.c -o lab6
+ozlem@Ozlem:~$ ./lab6
+&etext  =  0x55d9d4538455
+&end    =  0x55d9d453b020
+&edata  =  0x55d9d453b010
+Enter memory location in hex (start with 0x): 0x55d9d453b005
+
+
+------Read-write segment!!!------
+
+Reading 0x55d9d453b005: Reading is OK
+0
+Writing 0 back to 0x55d9d453b005: Writing is OK
+
+
+-----------------------------------ÖRNEK İKİNCİ ÇIKTI SONUCU---------------------------------------------
+
+ozlem@Ozlem:~$ gcc 191043_uyg6B.c -o lab6
+ozlem@Ozlem:~$ ./lab6
+&etext  =  0x55a772750455
+&end    =  0x55a772753020
+&edata  =  0x55a772753010
+Enter memory location in hex (start with 0x): 0x55a772750450
+
+
+------Read-only segment!!!------
+
+Reading 0x55a772750450: Reading is OK
+
+
+-----------------------------------AÇIKLAMA----------------------------------------------------------------
+
+
+Terminale girilen bellek konumu etext adresinden küçükse "Read-only segment" durumunda olduğu görülür.
+Terminale girilen bellek konumu edata adresinden küçükse "Read-write segment" durumunda olduğu görülür.
+Terminale girilen bellek konumu geçersizse kodumuzda tespit edilerek geçersiz bir bellek konumu olduğu kullanıcıya gösterilir.
+
